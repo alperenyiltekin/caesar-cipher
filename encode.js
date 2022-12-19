@@ -61,7 +61,7 @@ function encode() {
     //create an error message pushed to the DOM
 
     var pf = document.createElement('p');
-    pf.innerText = "Error: shift must be between -26 and 26."
+    pf.innerText = "Error: Anahtar sayı -26 ve 26 arasında olmalıdır."
     document.body.appendChild(pf);
   }
 
