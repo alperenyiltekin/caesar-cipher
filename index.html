@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/p5.js">
+	</script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/addons/p5.sound.min.js">
+	</script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+
+</head>
+
+<body>
+	<div class="container">
+		<p>Encode ya da Decode Edilecek Metin:</p>
+		<input type="text" id="text" autofocus="true"></input>
+	  	<p>Anahtar Sayıyı Girin:</p>
+	  
+		<p id= "helper">(Girilecek değer -26 ve 26 arasında olmalıdır!)</p>
+	  	<input type="number" id="shift"></input>
+	  	</br>
+		<div class="button-container">
+			<button onclick="encode();"> Encode! </button>
+			<button onclick="decode();"> Decode! </button>
+		</div>
+	</div>
+  <script src="encode.js"></script>
+  <script src="decode.js"></script>
+</body>
+
+</html>

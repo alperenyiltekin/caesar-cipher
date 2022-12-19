@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Castoro&display=swap');
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color:rgb(240, 244, 248);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: grey;
+}
+canvas {
+  display: block;
+}
+
+* {
+  padding:10px;
+  margin:10px;
+  outline-color:red;
+  font-family: 'Castoro', serif;
+
+}
+
+.container {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  width: 200px;
+  border: 1px solid grey;
+  border-radius: 6px;
+  background-color: transparent;
+  transition: .3s ease-in;
+
+}
+button:hover {
+  background: #bde0fe;
+  transition: .3s ease-in;
+  cursor: pointer;
+}
+
+
+#enctext {
+  padding:none;
+  color:red;
+}
+
+p {
+  margin:0px;
+}
+
+#helper {
+  padding:0px;
+  margin:0px;
+  margin-left:10px;
+  font-size:10px;
+}
+
+#dectext {
+  color:red;
+}
+
+#enctext {
+  color:blue;
+}
